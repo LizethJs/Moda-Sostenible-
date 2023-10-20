@@ -1,0 +1,278 @@
+html{
+    box-sizing: border-box;
+    font-size: 60.5%;
+}
+
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+a{
+    text-decoration: none;
+}
+
+.img-fondo{
+background-image: url(./moda-sostenible-768x389.jpg);
+}
+img{
+    width: 100%;
+}
+.velo-negro{
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.logo-img{
+    max-width: 40rem;
+    margin: 3rem 0;
+}
+li ul li:hover{
+    list-style: none;
+ background-color: rgba(56, 241, 87, 0.768);
+   
+}
+.menu_desple{
+    display: flex;
+   justify-content: center;
+   background-color: rgba(56, 241, 87, 0.768);
+  
+  
+}
+
+li ul{
+   
+    display: none;
+}
+
+.menu_desple li a {
+    padding: 2rem 7rem;
+    text-decoration: none;
+    display: block;
+  
+    
+}
+.desplegar:hover .sub_me_desple{
+    display: block;
+  
+}
+nav li ul{
+    position: absolute;
+    padding: 0;
+}
+
+li ul li{
+    list-style: none;
+    background-color: rgba(56, 241, 87, 0.768);
+ 
+   
+}
+li ul li a:hover{
+  color:black;
+   
+}
+
+
+
+
+
+
+
+nav a{
+    font-family: serif;
+    font-weight: 800;
+    font-size: 3rem;
+    color: white;
+    text-transform: uppercase;
+}
+nav a:hover{
+    color: black;
+
+}
+.activa{
+    color:black
+}    
+
+.nuestros-productos{
+    font-family: serif;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.productos{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+
+   
+}
+.producto{
+    border-radius: 0.7rem;
+    background-color: rgba(56, 241, 87, 0.768);
+    margin: 2rem;
+    padding: 2rem;
+}
+.producto:hover{
+    background-color: rgb(0, 68, 3);
+}
+
+.producto-blanco{
+    display: flex;
+    align-items: center;
+    border-radius: 0.7rem;
+    background-color: white;
+    height: 40rem;
+    object-fit: contain;
+    padding: 1rem;
+}
+
+.producto-precio,
+.producto-nombre{
+    color: white;
+    font-family: serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.producto-precio{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.producto-nombre{
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.formulario{
+    width: min(60rem, 100%);
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+
+.campo{
+    margin: 2rem;
+}
+
+
+.campo label{
+    display: block;
+}
+
+input, textarea{
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: .5rem;
+}
+
+
+input::placeholder, textarea::placeholder{
+    font-size: 2rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+legend{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+label{
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    margin-bottom: .7rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boton{
+    background-color: rgba(56, 241, 87, 0.768);
+    margin-top: 3rem;
+    color: white;
+    font-size: 2rem;
+    padding: 1rem 3rem;
+    border-radius: .5rem;
+    width: 40%;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.footer{
+    background-color: black;
+    padding: 3.5rem;
+    font-family: serif;
+    padding-bottom: 2rem;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.nosotros{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+gap: 10rem;
+margin-bottom: 20rem;
+
+}
+.nosotros-texto{
+    color: white;
+    font-size: 3rem;
+    font-family:serif;
+}
+
+.nosotros-img{
+    background-color: white;
+    border-radius: 5%;
+}
+
+.bloques{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20rem;
+}
+
+.bloques img{
+    width: 20rem;
+    margin-bottom: 2rem;
+    height: 20rem;
+}
+.bloque-titulo{
+    margin:0;
+}
+
+.bloque{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-family: serif;
+    margin-bottom: 5rem;
+}
+.bloque-titulo{
+    color: rgba(56, 241, 87, 0.768);
+    font-size: 4rem;
+    margin: 3rem;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.enlace-footer:hover{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
